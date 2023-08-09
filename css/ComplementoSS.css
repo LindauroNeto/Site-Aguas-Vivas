@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-	background: url(imagens/fundodecorais.jpg) 50% 50% / cover no-repeat fixed;
+	background: url(../images/fundodecorais.jpg) 50% 50% / cover no-repeat fixed;
 }
 
 ul {
