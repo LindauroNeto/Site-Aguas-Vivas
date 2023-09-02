@@ -85,7 +85,7 @@ div#ind {
 #links-final-page h3 {font-size: 50px; margin: 40px 0; padding: 5px;}
 #grade a {text-decoration: none;}
 
-.blocos {display: grid; justify-items: center; margin: 0 40px;}
+.blocos {display: grid; justify-items: center; margin: 0 60px;}
 .blocos a img {border: 5px solid #034C8C; width: 200px; height: auto; margin: 5px;}
 .blocos a p {text-align: center; padding: 1px; margin: 5px;}
 .blocos a p:hover {transition: color 0.2s; color: red;}
