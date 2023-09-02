@@ -1,5 +1,7 @@
 * {
 	font-family: 'Playfair', serif;
+	margin: 0;
+	padding: 0;
 }
 
 html, body {
@@ -13,10 +15,6 @@ body {
 ul {
 	margin: 5px;
 	padding: 5px 5px 5px 30px;
-}
-
-ul#ind {
-	justify-content: center;
 }
 
 p, h2 {
@@ -41,26 +39,36 @@ p, li {
 
 footer {
 	margin: 30px auto 10px auto;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: left;
 }
 
-div#cbc, div#ind, div#Loc, div#SNvs, div#EstR, div#Dif, div#Rep, div#Cur, footer {
-	width: 1100px;
+section, aside, div#imagem_principal, header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
+
 
 #fin {
 	border: medium dashed #034C8C;
 }
 
-div#ind {
-	width: 300px;
-}
-
 .TlB {
+	width: 1100px;
 	background-color: #4BC3F2;
 	box-shadow: 0 -2px 20px #000;
 	border: medium dashed #034C8C;
 	padding: 3px;
-	margin: 30px auto;
+	margin: 10px;
+}
+
+div#ind {
+	width: 300px;
 }
 
 
@@ -100,9 +108,10 @@ a.link, a.EstR {
 }
 
 a.EstR {
-	margin: 0 auto 0 auto;
+	margin: 0 auto;
 }
 
 .EstR:hover {
+	transition: color 0.2s;
 	color: red;
 }
