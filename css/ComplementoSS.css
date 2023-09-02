@@ -26,36 +26,20 @@ h2 {
 	font-size: 30px;
 }
 
-a {
-	text-decoration: none;
-	text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
-	font-size: 18px;
-}
-
 p, li {
 	font-size: 20px;
 	text-indent: 5px;
 	}
 
-footer {
-	margin: 30px auto 10px auto;
-	width: 200px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	float: left;
+main section {
+	margin: 20px 0;
 }
 
-section, aside, div#imagem_principal, header {
+.central {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}
-
-
-#fin {
-	border: medium dashed #034C8C;
 }
 
 .TlB {
@@ -65,6 +49,13 @@ section, aside, div#imagem_principal, header {
 	border: medium dashed #034C8C;
 	padding: 3px;
 	margin: 10px;
+}
+
+.EstR {
+	text-decoration: none;
+	text-shadow: 0 -1px #000, 1px 0 #000, 0 1px #000, -1px 0 #000;
+	font-size: 18px;
+	color: #99F2F2;
 }
 
 div#ind {
@@ -91,6 +82,13 @@ div#ind {
 }
 /* ^ bloco das IMAGENS ^ */
 
+#links-final-page h3 {font-size: 50px; margin: 40px 0; padding: 5px;}
+#grade a {text-decoration: none;}
+
+.blocos {display: grid; justify-items: center; margin: 0 40px;}
+.blocos a img {border: 5px solid #034C8C; width: 200px; height: auto; margin: 5px;}
+.blocos a p {text-align: center; padding: 1px; margin: 5px;}
+.blocos a p:hover {transition: color 0.2s; color: red;}
 
 h1#TT {
 	color: #0F50A6;
@@ -103,15 +101,11 @@ h1#TT {
 	text-shadow: -3px 2px #000;
 }
 
-a.link, a.EstR {
-	color: #99F2F2;
-}
+a.EstR:hover { transition: color 0.2s; color: red;}
 
-a.EstR {
-	margin: 0 auto;
-}
-
-.EstR:hover {
-	transition: color 0.2s;
-	color: red;
+#fin {
+	border: medium dashed #034C8C;
+	margin: 30px auto 10px 50px;
+	width: 200px;
+	float: left;
 }
